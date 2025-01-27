@@ -60,8 +60,8 @@ axios.get("https://gorest.co.in/public/v2/users", {
   .then(response => console.log(response.data))
   .catch(error => console.error("Error fetching users", error));
 
+```
 
-## Important Notes
 
 ## Important Notes
 
