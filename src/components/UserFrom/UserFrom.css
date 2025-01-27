@@ -1,0 +1,27 @@
+.user-form-conatiner{
+    border: 1px solid #afba77;
+    margin: 1em;
+    padding: 20px;
+    border-radius: 6px;
+}
+.user-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.user-form input{
+    height: 1.7em;
+    outline: none;
+    font-weight: 500;
+}
+
+.user-form button{
+    background-color: #afba77;
+    border: none;
+    color: white;
+    height: 2em;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 4px;
+}
